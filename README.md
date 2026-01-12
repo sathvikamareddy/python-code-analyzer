@@ -1,7 +1,9 @@
+<div align="center">
 ## 🧠 Py Code Reviewer
 
 Py Code Reviewer is a Python-based static code analysis tool designed to help beginners write cleaner, more efficient, and more Pythonic code.
 It analyzes Python source code, detects common beginner mistakes, suggests improvements, and estimates algorithmic complexity using Abstract Syntax Tree (AST) analysis.
+</div>
 ----------------
 ## 📌 Why This Project?
 
@@ -87,7 +89,7 @@ A structured review report is generated
 
 ▶️ How to Run
 1️⃣ Clone the repository
-git clone https://github.com/your-username/py-code-reviewer.git
+git clone https://github.com/sathvikamareddy/py-code-reviewer.git
 cd py-code-reviewer
 
 2️⃣ Run the reviewer
