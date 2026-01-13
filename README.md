@@ -1,11 +1,14 @@
 <div align="center">
-<b>🧠 Py Code Reviewer</b> 
+  
+# **🧠 Py Code Reviewer**
+
 </div>
+
 Py Code Reviewer is a Python-based static code analysis tool designed to help beginners write cleaner, more efficient, and more Pythonic code.
 It analyzes Python source code, detects common beginner mistakes, suggests improvements, and estimates algorithmic complexity using Abstract Syntax Tree (AST) analysis.
 
 ----------------
-## 📌 Why This Project?
+##  📌 Why This Project?
 
 Beginner programmers often struggle with:
 
@@ -19,7 +22,7 @@ Hard-to-read code
 
 This project acts as a mentor-like code reviewer, providing human-friendly feedback instead of compiler errors.
 ------------------------
-## 🚀 Features
+#  🚀 Features
 
 🔍 Static Code Analysis using Python AST
 
@@ -33,7 +36,7 @@ Repetitive logic
 
 Deep nesting
 
-💡 Logic Improvement Suggestions
+# 💡 Logic Improvement Suggestions
 
 Pythonic alternatives
 
@@ -45,11 +48,11 @@ Detects nested loops
 
 Estimates Big-O notation
 
-🧑‍🏫 Beginner-Friendly Explanations
+#  🧑‍🏫 Beginner-Friendly Explanations
 
 Clear, simple, non-technical feedback
 
-🛠️ Tech Stack
+#  🛠️ Tech Stack
 
 Python 3
 
@@ -58,17 +61,17 @@ Abstract Syntax Tree (AST)
 Standard Python libraries only
 (No external APIs or heavy frameworks)
 
-📂 Project Structure
-py-code-reviewer/
-│
-├── analyzer/
-│   ├── __init__.py
-│   ├── syntax_checker.py
-│   ├── logic_checker.py
-│   ├── complexity_analyzer.py
-│   ├── suggestions.py
-│
-├── samples/
+#  📂 Project Structure
+py-code-reviewer/<br>
+│<br>
+├── analyzer/<br>
+│   ├── __init__.py<br>
+│   ├── syntax_checker.py<br>
+│   ├── logic_checker.py<br>
+│   ├── complexity_analyzer.py<br>
+│   ├── suggestions.py<br>
+│<br>
+├── samples/<br>
 │   ├── bad_code.py
 │   ├── good_code.py
 │
