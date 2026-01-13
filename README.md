@@ -12,75 +12,79 @@ It analyzes Python source code, detects common beginner mistakes, suggests impro
 
 Beginner programmers often struggle with:
 
-Inefficient logic
+-Inefficient logic
 
-Poor coding practices
+-Poor coding practices
 
-Lack of understanding of time complexity
+-Lack of understanding of time complexity
 
-Hard-to-read code
+-Hard-to-read code
 
-This project acts as a mentor-like code reviewer, providing human-friendly feedback instead of compiler errors.
+-This project acts as a mentor-like code reviewer, providing human-friendly feedback instead of compiler errors.
 ------------------------
 #  🚀 Features
 
-🔍 Static Code Analysis using Python AST
+-🔍 Static Code Analysis using Python AST
 
-⚠️ Detection of Common Beginner Mistakes
+-⚠️ Detection of Common Beginner Mistakes
 
-Unused variables
+-Unused variables
 
-Inefficient loops
+-Inefficient loops
 
-Repetitive logic
+-Repetitive logic
 
-Deep nesting
+-Deep nesting
+
+---------------------
 
 # 💡 Logic Improvement Suggestions
 
-Pythonic alternatives
+-Pythonic alternatives
 
-Cleaner iteration patterns
+-Cleaner iteration patterns
 
-⏱️ Time Complexity Estimation
+# ⏱️ Time Complexity Estimation
 
-Detects nested loops
+-Detects nested loops
 
-Estimates Big-O notation
+-Estimates Big-O notation
 
 #  🧑‍🏫 Beginner-Friendly Explanations
 
-Clear, simple, non-technical feedback
+-Clear, simple, non-technical feedback
 
 #  🛠️ Tech Stack
 
-Python 3
+-Python 3
 
-Abstract Syntax Tree (AST)
+-Abstract Syntax Tree (AST)
 
-Standard Python libraries only
-(No external APIs or heavy frameworks)
+-Standard Python libraries only (No external APIs or heavy frameworks)
 
 #  📂 Project Structure
+
 py-code-reviewer/<br>
 │<br>
-├── analyzer/<br>
-│   ├── __init__.py<br>
+├── README.md<br>
+├── requirements.txt<br>
+│<br>
+├── main.py<br>
+│<br>
+├── analyzers/<br>
 │   ├── syntax_checker.py<br>
-│   ├── logic_checker.py<br>
-│   ├── complexity_analyzer.py<br>
-│   ├── suggestions.py<br>
+│   └── logic_checker.py<br>
+│<br>
+├── reviewer/<br>
+│   └── reviewer.py<br>
 │<br>
 ├── samples/<br>
-│   ├── bad_code.py
-│   ├── good_code.py
-│
-├── reviewer.py
-├── requirements.txt
-├── README.md
-└── LICENSE
+│   └── sample_code.py<br>
+│<br>
+└── output/<br>
+    └── report.txt
 
-▶️ How It Works
+#  ▶️ How It Works
 
 The Python code is parsed into an Abstract Syntax Tree
 
@@ -90,10 +94,15 @@ Issues, suggestions, and complexity are extracted
 
 A structured review report is generated
 
-▶️ How to Run
-1️⃣ Clone the repository
+#  📸 Output / Demo
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/bd745444-6dab-4b06-bd0d-9ead3d6dc641" />
+
+
+#  ▶️ How to Run
+#  1️⃣ Clone the repository
 git clone https://github.com/sathvikamareddy/py-code-reviewer.git
 cd py-code-reviewer
 
-2️⃣ Run the reviewer
+#  2️⃣ Run the reviewer
 python reviewer.py
