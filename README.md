@@ -53,7 +53,7 @@ Beginner programmers often struggle with:
 #  🧑‍🏫 Beginner-Friendly Explanations
 
 -Clear, simple, non-technical feedback
-
+---------------------------
 #  🛠️ Tech Stack
 
 -Python 3
