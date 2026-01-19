@@ -1,8 +1,7 @@
-<div align="center">
-  
+
 # **🧠 Py Code Reviewer**
 
-</div>
+
 
 Py Code Reviewer is a Python-based static code analysis tool designed to help beginners write cleaner, more efficient, and more Pythonic code.
 It analyzes Python source code, detects common beginner mistakes, suggests improvements, and estimates algorithmic complexity using Abstract Syntax Tree (AST) analysis.
