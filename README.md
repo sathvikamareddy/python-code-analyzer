@@ -63,7 +63,7 @@ Beginner programmers often struggle with:
 
 -Standard Python libraries only (No external APIs or heavy frameworks)
 
-#  📂 Project Structure
+##  📂 Project Structure
 
 py-code-reviewer/<br>
 │<br>
