@@ -3,6 +3,7 @@
 # **🧠 Py Code Reviewer**
 
 </div>
+<hr>
 
 
 Py Code Reviewer is a Python-based static code analysis tool designed to help beginners write cleaner, more efficient, and more Pythonic code.
